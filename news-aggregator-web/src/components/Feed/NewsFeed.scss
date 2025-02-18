@@ -1,0 +1,22 @@
+.card {
+    max-height: 90%;
+    height: 90%;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+}
+
+.card::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-content {
+    flex-grow: 1;
+}

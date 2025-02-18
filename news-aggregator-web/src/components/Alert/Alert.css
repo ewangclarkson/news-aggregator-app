@@ -1,0 +1,31 @@
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: normal;
+    line-height: 1;
+    color: #000000;
+    text-shadow: none;
+    opacity: .5;
+}
+
+.close:hover {
+    color: #000000;
+    text-decoration: none;
+}
+
+.close:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.close:not(:disabled):not(.disabled):hover, .close:not(:disabled):not(.disabled):focus {
+    opacity: .75;
+}
+
+button.close {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
